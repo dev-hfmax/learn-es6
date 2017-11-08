@@ -47,4 +47,5 @@ console.log(`I am ${age} years old.`); // I am 25 years old.
 [02js]: https://github.com/dev-hfmax/learn-es6/blob/master/02.js
 [03js]: https://github.com/dev-hfmax/learn-es6/blob/master/03.js
 [04js]: https://github.com/dev-hfmax/learn-es6/blob/master/04.js
+[05js]: https://github.com/dev-hfmax/learn-es6/blob/master/05.js
 
