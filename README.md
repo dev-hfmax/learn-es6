@@ -37,6 +37,27 @@ console.log(`I am ${age} years old.`); // I am 25 years old.
 
 [コード][05js]
 
+### 分解代入というか分割代入というか
+配列やオブジェクトの一部分を一気に変数に代入できるようになった。便利。  
+```
+let [a, b] = [1, 3, 5, 7, 9];
+console.log(a); // 1
+console.log(b); // 3
+```
+配列の場合、...演算子（どう読むの？）を使うことで、残りの要素を配列として代入できる。
+```
+let [a, b, ...rest] = [1, 3, 5, 7, 9];
+console.log(rest); // [5, 7, 9]
+```
+...演算子は常に最後にないとダメらしく、真ん中に持ってきて最後の要素を取り出すことはできなかった。
+
+あと、オブジェクトの一部分を取り出してオブジェクトを作るというか、
+オブジェクトの一部分で構成されるオブジェクトを一気に作ることは、この機能ではできなさそう。
+需要は多いと思うのだけど・・。  
+そういう意味で、Destructuring であって、Substructuring ではないみたい。
+
+[コード][06js]
+
 ## 関数
 
 ## 組み込みオブジェクト
@@ -48,4 +69,5 @@ console.log(`I am ${age} years old.`); // I am 25 years old.
 [03js]: https://github.com/dev-hfmax/learn-es6/blob/master/03.js
 [04js]: https://github.com/dev-hfmax/learn-es6/blob/master/04.js
 [05js]: https://github.com/dev-hfmax/learn-es6/blob/master/05.js
+[06js]: https://github.com/dev-hfmax/learn-es6/blob/master/06.js
 
