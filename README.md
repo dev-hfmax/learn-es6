@@ -21,6 +21,16 @@ Ruby の定数と同じ。
 
 [コード][03js]
 
+### テンプレート文字列
+文字列リテラルへの変数の埋め込みができるようになった。let の次に嬉しいかも。  
+変数は $ をつけて囲むのか。# と間違わないようにせねば。
+```
+let age = 25;
+console.log(`I am ${age} years old.`); // I am 25 years old.
+```
+
+[コード][04js]
+
 ## 関数
 
 ## 組み込みオブジェクト
@@ -30,4 +40,5 @@ Ruby の定数と同じ。
 [01js]: https://github.com/dev-hfmax/learn-es6/blob/master/01.js
 [02js]: https://github.com/dev-hfmax/learn-es6/blob/master/02.js
 [03js]: https://github.com/dev-hfmax/learn-es6/blob/master/03.js
+[04js]: https://github.com/dev-hfmax/learn-es6/blob/master/04.js
 
