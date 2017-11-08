@@ -14,6 +14,13 @@ Ruby の定数と同じ。
 
 [コード][02js]
 
+### 2進数リテラルと8進数リテラル
+2進数リテラルと8進数リテラルが入った。8進数はどういう状況で使うのだろう。
+2進数は頭に 0b を付ける（0b01 など）。
+8進数は頭に 0o を付ける（0o10 など）。
+
+[コード][03js]
+
 ## 関数
 
 ## 組み込みオブジェクト
@@ -22,4 +29,5 @@ Ruby の定数と同じ。
 
 [01js]: https://github.com/dev-hfmax/learn-es6/blob/master/01.js
 [02js]: https://github.com/dev-hfmax/learn-es6/blob/master/02.js
+[03js]: https://github.com/dev-hfmax/learn-es6/blob/master/03.js
 
